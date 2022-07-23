@@ -14,10 +14,10 @@ from page6 import page6
 
 
 st.set_page_config(layout='wide',
-                    page_title="SalesGun",
-                    page_icon="🔫")
+                    page_title="auto-feed",
+                    page_icon="💁🏻")
 
-st.markdown("<h1 style='text-align: center; color: white;'>🔫 SalesGun </h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: white;'> Auto Feed </h1>", unsafe_allow_html=True)
 
 st.markdown(
             f"""
