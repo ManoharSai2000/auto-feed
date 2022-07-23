@@ -87,7 +87,7 @@ def top_k():
 
 @st.cache
 def read_data(customer:str):
-    data = pd.read_pickle(f"./data/{customer}/df.pkl")
+    data = pd.read_pickle(f"app/data/{customer}/df.pkl")
     data["reason"] = data["reason"].str.title()
     return data
 
