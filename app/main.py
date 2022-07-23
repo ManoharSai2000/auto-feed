@@ -30,7 +30,7 @@ all_tabs = ["Quick Insights","Happy Customer's Issues","Unhappy Customer`s Issue
 
 def ack_customer():
 
-    customers = os.listdir("./data/")
+    customers = os.listdir("app/data/")
     customers = [customer for customer in customers if customer[0]!='.']
     
     add_selectbox = st.sidebar.selectbox(
